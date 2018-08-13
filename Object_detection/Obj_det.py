@@ -9,7 +9,7 @@ FLANN_INDEX_KDITREE=0
 flannParam=dict(algorithm=FLANN_INDEX_KDITREE,tree=5)
 flann=cv2.FlannBasedMatcher(flannParam,{})
 
-trainImg=cv2.imread("training/mobile3.jpg",0)
+trainImg=cv2.imread("mobile3.jpg",0)
 trainKP,trainDesc=detector.detectAndCompute(trainImg,None)
 
 cam=cv2.VideoCapture(0)
