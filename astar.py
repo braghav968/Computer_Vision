@@ -6,7 +6,6 @@ from heapq import *
 from numpy import*
 
 
-'''
 #im = cv2.imread("maze.png",0).astype(np.uint8)
 im = cv2.imread("triall.jpg",0).astype(np.uint8)
 #im=cv2.resize(im,(300,300))
@@ -118,7 +117,6 @@ cv2.imwrite("maze_thinned.png",thinned)
 cv2.imshow("thin",thinned)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
 
 c=0
 initial=[]
