@@ -1,4 +1,4 @@
-# Computer-Vision
+# Maze Solver using Computer Vision
 
 #### PROBLEM STATEMENT :
 The project aims to solve two objectives :
