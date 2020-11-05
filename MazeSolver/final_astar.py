@@ -8,7 +8,7 @@ from numpy import*
 
 
 #im = cv2.imread("maze.png",0).astype(np.uint8)
-im = cv2.imread("triall.jpg",0).astype(np.uint8)
+im = cv2.imread("Input_Maze_Image.jpg",0).astype(np.uint8)
 #im=cv2.resize(im,(300,300))
 #im=cv2.bilateralFilter(im,9,75,75)
 #cv2.imshow("blur",im)
@@ -44,9 +44,6 @@ while done==False:
 skel=cv2.dilate(skel,element2)
 skel=cv2.erode(skel,element3)
 #cv2.imshow("Skeleton",skel)
-
-
-
 
 for i in range(1,im.shape[0] - 1):
     for j in range(1,im.shape[1] - 1):
