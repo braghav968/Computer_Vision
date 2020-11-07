@@ -4,6 +4,4 @@ We have used morphological operations such as erosion, dilation, skeletization f
 After applying the A-star algorithm, the output of the image is given as "Output_Shortest_Path_Image.png".
 The model gives accurate output for input maze.
 
-<p align="center">
-  <img src="Input_Maze_Image.jpg?raw=true" height="400px" width="50%" title="Photo by Steffen Muldbjerg on Unsplash" alt="Photo by Steffen Muldbjerg on Unsplash">
-</p>
+![alt text](https://cdn.statically.io/gh/AtharvaKalsekar/Computer_Vision/04207445/MazeSolver/Input_Maze_Image.jpg)
